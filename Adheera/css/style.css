@@ -1531,6 +1531,7 @@ nav {
 }
 .expand .cbp-l-icon {
     display: inline;
+   
     margin-left: 5px;
     margin-right: 5px;
 }
@@ -3844,5 +3845,17 @@ pre {
 .pricing_table .planbox.highlight .hiimg {
 	display: block;
 	margin: -22px auto 0 auto;
+}
+
+.cbp img    {
+    /* display: inline-block !important; 
+    width: 75% !important;
+    height: auto !important; */
+ 
+        float: left  !important;
+        width:  336px  !important;
+        height: 281px  !important;
+        object-fit: cover !important;
+   
 }
 
